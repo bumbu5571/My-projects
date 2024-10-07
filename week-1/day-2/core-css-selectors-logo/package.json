@@ -1,0 +1,25 @@
+{
+  "name": "core-css-selectors-logo",
+  "version": "1.0.0",
+  "description": "Продолжаем работу с css-селекторами",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elbrus-Bootcamp/core-css-selectors-logo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elbrus-Bootcamp/core-css-selectors-logo/issues"
+  },
+  "homepage": "https://github.com/Elbrus-Bootcamp/core-css-selectors-logo#readme",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "pretty-quick": "^3.1.3"
+  }
+}

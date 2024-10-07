@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Главная страница</title>
+  </head>
+  <body>
+    <header>
+      <h1>Добро пожаловать на главную страницу</h1>
+    </header>
+    <p>Форма регистрации:</p>
+    <form action="./greetings.html">
+      <label for="login"></label
+      ><input type="text" id="login" name="login" placeholder="Логин" /><br />
+      <label for="password"></label
+      ><input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Пароль"
+      /><br />
+      <label for="name_surname"></label
+      ><input
+        type="text"
+        id="name_surname"
+        name="name_surname"
+        placeholder="ФИО"
+      /><br />
+      <label for="choice_gender">Пол:</label>
+      <div id="choice_gender">
+        <label for="gender_man">Мужской</label>
+        <input type="radio" id="gender_man" name="gender" value="man" /><br />
+        <label for="gender_women">Женский</label>
+        <input
+          type="radio"
+          id="gender_women"
+          name="gender"
+          value="women"
+        /><br />
+      </div>
+      <label for="date_birth">Дата рождения:</label
+      ><input type="date" id="date_birth" name="date_birth" /><br />
+      <label for="citi">Город:</label>
+      <select name="choice_citi" id="citi">
+        <option value="moscow">Москва</option>
+        <option value="saint_petersburg">Санкт-Петербург</option>
+        <option value="koryazhma" selected>Коряжма</option>
+        <option value="other">Другое</option></select
+      ><br />
+      <label for="like_foot">Любимая еда:</label><br />
+      <textarea name="like_foot" id="like_foot" placeholder="Пицца ?"></textarea
+      ><br />
+      <label for="device">Какими устройствами пользуетесь?</label>
+      <div id="device">
+        <label for="computer">Компьютер</label
+        ><input type="checkbox" id="computer" name="computer" />
+        <label for="ipad">Планшет</label
+        ><input type="checkbox" id="ipad" name="ipad" />
+        <label for="iphone">Телефон</label
+        ><input type="checkbox" id="iphone" name="iphone" />
+        <label for="smart_watch">Смарт-часы</label
+        ><input type="checkbox" id="smart_watch" name="smart_watch" />
+        <label for="other">Другое</label
+        ><input type="checkbox" id="other" name="other" />
+      </div>
+      <button type="submit">Отправить!</button>
+    </form>
+    <br /><a href="./greetings.html">Страница успешной регистрации</a>
+  </body>
+</html>

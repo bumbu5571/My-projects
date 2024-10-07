@@ -1,0 +1,25 @@
+{
+  "name": "core-css-selectors-webpage",
+  "version": "1.0.0",
+  "description": "В данном задании тебе предстоит познакомиться с различными CSS селекторами, а также некоторыми базовыми свойствами.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elbrus-Bootcamp/core-css-selectors-webpage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elbrus-Bootcamp/core-css-selectors-webpage/issues"
+  },
+  "homepage": "https://github.com/Elbrus-Bootcamp/core-css-selectors-webpage#readme",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "pretty-quick": "^3.1.3"
+  }
+}

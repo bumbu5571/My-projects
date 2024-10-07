@@ -1,0 +1,25 @@
+{
+  "name": "extra-html-navigation",
+  "version": "1.0.0",
+  "description": "Ты много раз сталкивался(ась) с меню навигации по html-странице. Вспомни, например, Википедию. В начале каждой статьи у тебя есть \"содержание\", каждый пункт которого является ссылкой на соответствующий раздел. При нажатии на ссылку страница прокручивается до нужного тебе раздела в статье. Скорее всего ты уже догадался(ась), что тебе предстоит сделать в этом задании - меню навигации по странице! То есть такое же оглавление с ссылками на разделы.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elbrus-Bootcamp/extra-html-navigation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elbrus-Bootcamp/extra-html-navigation/issues"
+  },
+  "homepage": "https://github.com/Elbrus-Bootcamp/extra-html-navigation#readme",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "pretty-quick": "^3.1.3"
+  }
+}

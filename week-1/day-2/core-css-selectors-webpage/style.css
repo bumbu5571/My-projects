@@ -1,0 +1,124 @@
+/* your styles here */
+:root {
+  --color-one: #4ff951;
+  --color-two: #08e8de;
+  --color-three: #f86340;
+  --color-four: #e329f7;
+}
+
+* {
+  box-sizing: border-box;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#logo img {
+  content: url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/lorem-ipsum-logo-design-template-af79801c9cfcb466763760fc1a03ed44_screen.jpg?ts=1681094973);
+  width: 100%;
+  height: 100%;
+  max-width: 10rem;
+  max-height: 10rem;
+  position: relative;
+  left: 5vw;
+  top: 1.5vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+}
+
+nav div:last-of-type {
+  margin-right: 3rem;
+}
+
+nav div {
+  font-size: 3rem;
+  text-shadow: -1px -1px 1px var(--color-two), 2px -1px 1px var(--color-one),
+    -1px 1px 1px var(--color-three), 1px 1px 1px var(--color-four);
+}
+
+main {
+  width: 90vw;
+  margin-left: 10vw;
+}
+
+main div:first-of-type {
+  position: fixed;
+  left: 1rem;
+  width: 15vw;
+}
+
+.contents {
+  list-style: none;
+  background: linear-gradient(
+    45deg,
+    var(--color-four),
+    var(--color-three),
+    var(--color-two),
+    var(--color-one)
+  );
+  border-radius: 1rem;
+}
+
+main div:last-of-type {
+  margin: 0 auto;
+  padding: 0 10rem;
+}
+
+div article {
+  margin: 1rem 0;
+  padding: 2rem;
+  border-radius: 5rem;
+}
+
+div article:nth-of-type(4n + 1) {
+  background-color: var(--color-one);
+}
+
+div article:nth-of-type(4n + 2) {
+  background-color: var(--color-two);
+}
+
+div article:nth-of-type(4n + 3) {
+  background-color: var(--color-three);
+}
+
+div article:nth-of-type(4n + 4) {
+  background-color: var(--color-four);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vw;
+}
+
+footer div {
+  font-size: 2rem;
+  text-shadow: -1px -1px 1px var(--color-two), 2px -1px 1px var(--color-one),
+    -1px 1px 1px var(--color-three), 1px 1px 1px var(--color-four);
+}
+
+li {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+i {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 600;
+}

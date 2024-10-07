@@ -1,0 +1,25 @@
+{
+  "name": "elbrus-kino-adaptive",
+  "version": "1.0.0",
+  "description": "### Введение",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elbrus-Bootcamp/elbrus-kino-adaptive.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elbrus-Bootcamp/elbrus-kino-adaptive/issues"
+  },
+  "homepage": "https://github.com/Elbrus-Bootcamp/elbrus-kino-adaptive#readme",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "pretty-quick": "^3.1.3"
+  }
+}
