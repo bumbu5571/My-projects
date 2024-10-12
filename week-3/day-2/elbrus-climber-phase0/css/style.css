@@ -1,0 +1,140 @@
+.repeat {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  padding: 0.75rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+  color: white;
+  background-color: darkblue;
+}
+
+.mountain {
+  width: 99vw;
+  height: 99vh;
+}
+
+.mountain img {
+  width: 100%;
+  height: 100%;
+  max-width: inherit;
+  max-height: inherit;
+}
+
+.marker .climber {
+  position: absolute;
+  width: 5vw;
+  height: 10vh;
+  left: 0px;
+  bottom: -125px;
+  z-index: 10;
+}
+
+.marker.one {
+  width: 80px;
+  border-bottom: 5px solid sienna;
+  position: absolute;
+  left: 7vw;
+  bottom: 6vh;
+  z-index: 5;
+}
+
+.marker.two {
+  width: 80px;
+  border-bottom: 5px solid sienna;
+  position: absolute;
+  left: 11.2vw;
+  bottom: 14vh;
+  z-index: 5;
+}
+
+.marker.three {
+  width: 80px;
+  border-bottom: 5px solid sienna;
+  position: absolute;
+  left: 13.5vw;
+  bottom: 25vh;
+  z-index: 5;
+  transform: rotate(-30deg);
+}
+
+.marker.four {
+  width: 80px;
+  border-bottom: 5px solid sienna;
+  position: absolute;
+  left: 17vw;
+  bottom: 35vh;
+  z-index: 5;
+}
+
+.marker.five {
+  width: 80px;
+  border-bottom: 5px solid sienna;
+  position: absolute;
+  left: 19.5vw;
+  bottom: 45vh;
+  z-index: 5;
+}
+
+.marker.six  {
+  width: 80px;
+  border-bottom: 5px solid sienna;
+  position: absolute;
+  left: 21.5vw;
+  bottom: 55vh;
+  z-index: 5;
+}
+
+.marker.seven {
+  width: 80px;
+  border-bottom: 5px solid sienna;
+  position: absolute;
+  left: 25vw;
+  bottom: 64vh;
+  z-index: 5;
+}
+
+.marker.eight {
+  width: 80px;
+  border-bottom: 5px solid sienna;
+  position: absolute;
+  left: 32vw;
+  bottom: 64vh;
+  z-index: 5;
+}
+
+.marker.nine {
+  width: 80px;
+  border-bottom: 5px solid sienna;
+  position: absolute;
+  left: 36vw;
+  bottom: 70vh;
+  z-index: 5;
+}
+
+.marker.ten {
+  width: 80px;
+  border-bottom: 5px solid sienna;
+  position: absolute;
+  left: 38.2vw;
+  bottom: 78vh;
+  z-index: 5;
+}
+
+.marker.eleven {
+  width: 80px;
+  border-bottom: 5px solid sienna;
+  position: absolute;
+  left: 41vw;
+  bottom: 87vh;
+  z-index: 5;
+}
+
+.win {
+  width: 80px;
+  position: absolute;
+  left: 41vw;
+  bottom: 93vh;
+  z-index: 5;
+  display: none;
+}

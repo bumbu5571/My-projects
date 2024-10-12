@@ -1,0 +1,28 @@
+{
+  "name": "js-class-intro",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "JS OOP",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elbrus-Bootcamp/js-class-intro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elbrus-Bootcamp/js-class-intro/issues"
+  },
+  "homepage": "https://github.com/Elbrus-Bootcamp/js-class-intro#readme",
+  "devDependencies": {
+    "jest": "^29.6.4",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}

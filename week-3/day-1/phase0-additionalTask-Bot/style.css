@@ -1,0 +1,142 @@
+*{
+ box-sizing: border-box; 
+ font-size: 10px;
+}
+
+:root {
+  --color-one: #dbd0c9;
+  --color-two: #201813;
+  --color-three: #6F4E37;
+  --color-four: #b6a295;
+}
+
+body {
+  background-color: var(--color-one);
+}
+
+header {
+  width: 80vw;
+  margin: 5rem auto 0;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 700;
+  color: var(--color-two);
+}
+
+header p {
+  font-size: 2.5rem;
+  color: var(--color-two);
+}
+
+main {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 1rem;
+  min-height: 50vh;
+  background-color: var(--color-three);
+  border: 5px solid var(--color-two);
+  border-radius: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+section {
+  margin: 3rem auto;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+input {
+  width: 70%;
+  height: 3rem;
+  padding: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+  background-color: var(--color-three);
+  color: var(--color-one);
+  border: 3px solid var(--color-two);
+  border-radius: 5rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  height: 4.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+  background-color: var(--color-three);
+  color: var(--color-one);
+  border: 3px solid var(--color-two);
+  border-radius: 5rem;
+}
+
+.message-user {
+  max-width: 90%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color:var(--color-two);
+  background-color: var(--color-four);
+  border-radius: 5rem;
+  border: 3px solid var(--color-two);
+  align-self: flex-end;
+}
+
+.message-bot {
+  max-width: 90%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  color:var(--color-two);
+  background-color: var(--color-one);
+  border-radius: 5rem;
+  border: 3px solid var(--color-two);
+  align-self: flex-start;
+}
+
+main h1 {
+  font-size: 2.2rem;
+}
+
+main h2 {
+  font-size: 2rem;
+}
+
+main p {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  
+header {
+  font-size: 3rem;
+  margin: 0 auto;
+}
+
+header p {
+  font-size: 2rem;
+}
+
+input {
+  font-size: 1.5rem;
+}
+
+button {
+  font-size: 1.5rem;
+}
+
+.message-user {
+  border-radius: 2.5rem;
+  padding: 0.5rem;
+}
+
+.message-bot {
+  padding: 0.5rem;
+  border-radius: 2.5rem;
+}}

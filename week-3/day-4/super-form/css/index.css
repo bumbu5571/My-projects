@@ -1,0 +1,125 @@
+:root {
+--color-back: rgb(35, 37, 41);
+--color-text: #fff;
+--color-back-elem: #282a36;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+body {
+    background-color: var(--color-back);
+    color: var(--color-text)
+}
+
+.container {
+    margin: 0 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 100px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+input {
+    display: block;
+    height: 30px;
+    padding: 20px 0;
+    background-color: var(--color-back-elem);
+    color: var(--color-text);
+}
+
+input:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.btn:active {
+    transform: scale(0.99);
+}
+
+.btn {
+    background: none;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+    color: var(--color-text);
+}
+
+.add {
+    outline: 3px solid green;
+    margin-bottom: 15px;
+}
+
+.clear {
+    outline: 3px solid red;
+    width: 50vw;
+}
+
+.mainUsers,
+.users {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.users,
+.user {
+    width: 40vw;
+}
+
+.user {
+    background-color: var(--color-back-elem);
+    margin-bottom: 10px;
+}
+
+.user-outer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.delete,
+.change {
+    border: none;
+    height: 40%;
+    color: var(--color-text);
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.delete {
+    background: red;
+    
+}
+
+.change {
+    background: green;
+}
+
+.delete:active,
+.change:active {
+    transform: scale(0.95);
+}
