@@ -1,0 +1,9 @@
+# Dependencies
+node_modules
+
+# Generated files
+quotes/*
+!quotes/README.md
+
+# Miscellaneous
+.DS_Store

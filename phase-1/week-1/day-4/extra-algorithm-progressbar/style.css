@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+.progressbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 250px auto;
+  width: 30vw;
+  height: 15vh;
+  border: 1px solid black;
+  background: linear-gradient(90deg,#58648c, #e8e9ed);
+}
+
+.loading {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 0 auto;
+  width: 26vw;
+  height: 2vh;
+  border: 1px solid black;
+  background: #fff;
+}
+
+.el-loading {
+  margin-left: 1px;
+  display: block;
+  width: .75vw;
+  height: 1.5vh;
+  border: 1px solid black;
+  background: #354067;
+}

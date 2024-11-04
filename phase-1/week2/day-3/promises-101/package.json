@@ -1,0 +1,19 @@
+{
+  "name": "promises-101",
+  "version": "1.0.0",
+  "description": "Маленькое упражнение на базовое использование промисов",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "contributors": [
+    "Lena Lushnikova"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1"
+  }
+}

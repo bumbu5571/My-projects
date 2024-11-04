@@ -1,0 +1,25 @@
+{
+  "name": "core-regular-expressions",
+  "version": "1.0.0",
+  "description": "В этой задаче ты будешь работать со строками и `RegExp`. Если говорить более конкретно, то ты будешь проверять строки на их соответствие определенным символьным шаблонам, которые будут определяться через регулярные выражения.",
+  "main": "snils.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elbrus-Bootcamp/core-regular-expressions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elbrus-Bootcamp/core-regular-expressions/issues"
+  },
+  "homepage": "https://github.com/Elbrus-Bootcamp/core-regular-expressions#readme",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}

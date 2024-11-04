@@ -1,0 +1,27 @@
+{
+  "name": "self-assessment-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-part-1": "jest part-1",
+    "test-part-2": "jest part-2",
+    "test-part-3": "jest part-3",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elbrusboot-camp-online/self-assessment-1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elbrusboot-camp-online/self-assessment-1/issues"
+  },
+  "homepage": "https://github.com/elbrusboot-camp-online/self-assessment-1#readme",
+  "devDependencies": {
+    "eslint": "^8.43.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jest": "^27.2.2",
+    "jest": "^29.5.0"
+  }
+}

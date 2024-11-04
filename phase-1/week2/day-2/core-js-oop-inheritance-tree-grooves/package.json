@@ -1,0 +1,22 @@
+{
+  "name": "core-js-oop-inheritance-tree-grooves",
+  "version": "1.0.0",
+  "description": "Ты смоделировал(а) апельсиновое дерево для нашего клиента, фермера Федора. Кажется это было [тут](https://github.com/elbrusboot-camp-online/core-js-oop-tdd-orange-tree).\r *Если ты еще не сделал(а) это задание, **сделай его прежде**, чем приступать к моделированию рощи!*",
+  "main": "runner.js",
+  "scripts": {
+    "test": "npm run jest",
+    "jest": "jest -i", 
+    "test-orange": "npm run jest -- orange.spec.js",
+    "test-apple": "npm run jest -- apple.spec.js",
+    "test-pear": "npm run jest -- pear.spec.js",
+    "test-orange-tree": "npm run jest -- orange-tree.spec.js",
+    "test-apple-tree": "npm run jest -- apple-tree.spec.js",
+    "test-pear-tree": "npm run jest -- pear-tree.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

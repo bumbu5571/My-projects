@@ -1,0 +1,35 @@
+{
+  "name": "Арена гладиаторов",
+  "version": "1.0.0",
+  "description": "Добро пожаловать на гладиаторскую арену!",
+  "main": "arena.js",
+  "scripts": {
+    "test": "jest -i",
+    "start": "node arena.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elbrus-Bootcamp/arena.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elbrus-Bootcamp/arena/issues"
+  },
+  "homepage": "https://github.com/Elbrus-Bootcamp/arena#readme",
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.0",
+    "jest": "^26.6.1"
+  },
+  "dependencies": {
+    "@types/jest": "^29.2.5",
+    "@types/node": "^18.11.18",
+    "chalk": "^4.1.2",
+    "readline-sync": "^1.4.10"
+  }
+}

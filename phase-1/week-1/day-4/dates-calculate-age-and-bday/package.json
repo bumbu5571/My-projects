@@ -1,0 +1,23 @@
+{
+  "name": "dates-calculate-age-and-bday",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest spec/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "jest": "^29.6.4",
+    "prettier": "^3.0.3"
+  }
+}

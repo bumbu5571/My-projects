@@ -1,0 +1,38 @@
+SyntaxError: Invalid or unexpected token
+	at Object.eval (webpack-internal:///./src/index.js:1:1)
+	at eval (webpack-internal:///./src/index.js:1:1)
+	at Object.require (webpack-internal:///./src/index.js:1:1)
+#####
+TypeError: Cannot read properties of undefined (reading 'name')
+	Object.<anonymous> (/part-7/logs.js:13:7)
+	at Module._compile (node:internal/modules/cjs/loader:1241:14)
+#####
+Console Info: Hello, World!
+	at Object.require (/part-7/logs.js:15:1)
+	at Module._compile (node:internal/modules/cjs/loader:1241:14)
+	at Object.Module._extensions..js (node:internal/modules)
+#####
+Warning: deprecated package chunk-chalk.
+Please upgrade to the latest version.
+#####
+ReferenceError: person is not defined
+	at wrapSafe (node:internal/modules/cjs/loader:1153:20)
+	at internalCompileFunction (node:internal/vm:73:18)
+#####
+Console Info: reading a private property 'uuid'
+	at Module._load (node:internal/modules/cjs/loader:938:12)
+	at Object.toBe (anonymous.js:20:30)
+#####
+SyntaxError: Unexpected token ')' in JSON at position 0
+	at JSON.parse (<anonymous>)
+	at Object.require (/part-7/logs.js:14:1)
+#####
+Warning: module node-fetch is deprecated.
+Please use the fetch-ponyfill package in the browser or npm i node-fetch@2.6.0 in the node environment.
+If you use the node environment please supply the option { native: true } to use the native fetch function.
+	(/part-7/logs.js:15)
+#####
+Warning: each element must have a unique 'key' property
+	at Object.render (/part-7/logs.js:16:1)
+	at Module._compile (node:internal/modules/cjs/loader:1241:14)
+	at Object.Module._extensions..js (node:internal/modules)

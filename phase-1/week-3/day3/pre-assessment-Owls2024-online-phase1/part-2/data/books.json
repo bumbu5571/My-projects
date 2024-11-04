@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Master and Margarita",
+    "numberOfPages": 512,
+    "author": "Bulgakov Mikhail",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "The Picture of Dorian Grey",
+    "numberOfPages": 320,
+    "author": "Wilde Oscar",
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "name": "Crime and Punishment",
+    "numberOfPages": 640,
+    "author": "Dostoevsky Fyodor",
+    "rating": 4
+  },
+  {
+    "id": 4,
+    "name": "Hero of our time",
+    "numberOfPages": 224,
+    "author": "Lermontov Mikhail",
+    "rating": 0
+  }
+]

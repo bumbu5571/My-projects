@@ -1,0 +1,22 @@
+{
+  "name": "core-js-nested-arrays-chess",
+  "version": "1.0.0",
+  "description": "Массивы - полезные объекты для хранения наборов данных: списка чисел, строк, и т.д. Они очень просты, и их гибкость дает неограниченные возможности! Есть одна общая концепция, назовем ее *Вложенные массивы*. То есть можно создать такой массив, элементы которого в свою очередь тоже являются массивами. **Массив массивов**.",
+  "main": "chessboard.js",
+  "scripts": {
+    "test": "jest ./spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elbrus-Bootcamp/core-js-nested-arrays-chess.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elbrus-Bootcamp/core-js-nested-arrays-chess/issues"
+  },
+  "homepage": "https://github.com/Elbrus-Bootcamp/core-js-nested-arrays-chess#readme",
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
+}

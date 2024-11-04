@@ -1,0 +1,4 @@
+Alice - 50000
+Bob - 80000
+Total: 170000
+Charlie - 40000

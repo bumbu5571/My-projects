@@ -1,0 +1,12 @@
+{
+  "name": "core-js-enumerable-methods",
+  "version": "1.0.0",
+  "description": "Во время программирования мы часто работаем с коллекциями объектов: массивом телефонных номеров, списком имен, набором GPS-координат и т.д.",
+  "main": "aggregate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

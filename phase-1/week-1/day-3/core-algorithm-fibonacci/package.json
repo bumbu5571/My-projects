@@ -1,0 +1,15 @@
+{
+  "name": "core-algorithm-fibonacci",
+  "version": "1.0.0",
+  "description": "В этой задаче ты снова рассмотришь реализацию аналогичного процесса двумя разными способами: итеративно и рекурсивно. Ты ознакомился(ась) с каждым из этих подходов в [предыдущей задаче](https://github.com/elbrusboot-camp-online/core-algorithm-factorial).",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
